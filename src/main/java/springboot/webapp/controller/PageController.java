@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package springboot.webapp.controller;
 
 import org.springframework.context.annotation.Scope;
@@ -13,9 +8,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 @Scope("request")
-public class SimplePageController {
-    
-    @RequestMapping(value="/", method=RequestMethod.GET)
+public class PageController {
+
+    @RequestMapping(value="/", method= RequestMethod.GET)
     public String simplePage(Model model){
         model.addAttribute("name", "Mate");
         return "simplepage";
