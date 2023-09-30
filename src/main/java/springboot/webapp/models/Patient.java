@@ -1,4 +1,4 @@
-package Model;
+package springboot.webapp.models;
 
 public class Patient {
     private String first_name;
