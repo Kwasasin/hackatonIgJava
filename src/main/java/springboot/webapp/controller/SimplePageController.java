@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.edcg.simple.springboot.webapp.controller;
+package springboot.webapp.controller;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;

@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.edcg.simple.springboot.webapp.config;
+package springboot.webapp.config;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.annotation.ComponentScan;
 
 @EnableAutoConfiguration
-@ComponentScan(basePackages = "com.edcg.simple.springboot.webapp")
+@ComponentScan(basePackages = "springboot.webapp")
 public class SpringBootConfig {
     
     public static void main(String[] args) {
